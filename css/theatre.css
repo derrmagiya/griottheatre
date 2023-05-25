@@ -1,0 +1,145 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .theater-header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  .theater-header h1 {
+    color: #fff;
+    padding-top: 120px;
+    font-size: 48px;
+  }
+
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .list-group-item {
+    font-size: 14px;
+    border: none;
+    padding: 0.25rem;
+  }
+  
+  .btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-primary:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+  }
+  
+  .theater-footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .theater-footer p {
+    margin: 0;
+  }
+  .theater-header {
+    background-image: url('https://img.freepik.com/free-vector/dark-theater-stage-with-spotlights-curtain-drama_107791-16060.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  .show1-image {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDBkI_TVZbBbH5swrwtQkzj06j3hb91iPms4lZnIk2pr0MWlJ4bcxkeco1EBCuHZe0WQ&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+
+  .show2-image {
+    background-image: url('https://www.microsofttheater.com/assets/img/500x500_DRUSKI_EDP-Thumbnail-c9358afa0f.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+
+  .show3-image {
+    background-image: url('https://pyxis.nymag.com/v1/imgs/4be/d2b/bc69ad55f2a1f52e2322bd1365cde14322-dave-chappelle-the-closer.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+
+  body {
+    background-image: url('https://soundgirls.org/wp-content/uploads/2021/02/empty-stage-with-opened-red-curtains-projector-light-beam-wooden-floor_33099-952.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color:rgb(14, 0, 56);
+    height: 60px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .icon {
+    margin-bottom: 5px;
+  }
+  
+  .icon i {
+    font-size: 20px;
+  }
+  
